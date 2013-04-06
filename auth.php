@@ -40,7 +40,7 @@ error_log($e->getMessage());
 }   
 
 $facebook->setExtendedAccessToken();
-$token - $facebook->getAccessToken();
+$token = $facebook->getAccessToken();
 
 ?>
 
