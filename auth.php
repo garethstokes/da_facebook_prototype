@@ -39,6 +39,8 @@ error_log($e->getType());
 error_log($e->getMessage());
 }   
 
-$facebook->setExtendedAccessToken();
+$token = $facebook->setExtendedAccessToken();
 
 ?>
+
+<?= $token ?>
